@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+body,
+html {
+  height: 100%;
+  background-color: #000000;
+}
+.main {
+  width: 100%;
+}
+
+h1 {
+  font-size: 56px;
+}
+h2 {
+  font-family: "Cinzel", sans-serif;
+  font-size: 28px;
+}
+p {
+  font-size: 18px;
+}
+.destaque {
+  color: #ffcc48 !important;
+}
+
+
+button:hover {
+  cursor: pointer;
+}
+.glow {
+  box-shadow: 0px 0px 10px #e6b342;
+}
+
+.bloco {
+  width: 100%;
+}
+.video {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #ffcc48;
+  background-color: gray;
+  border-radius: 15px;
+  max-width: 90%;
+  min-height: 200px;
+}

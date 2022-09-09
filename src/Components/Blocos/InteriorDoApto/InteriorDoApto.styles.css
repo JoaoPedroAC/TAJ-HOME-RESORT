@@ -1,0 +1,12 @@
+.bloco-interiorDoApto {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bloco-interiorDoApto > .carrossel-interior {
+  width: 100%;
+  height: 100%;
+}

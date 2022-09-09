@@ -1,0 +1,57 @@
+.oportunidade-container{
+    background-color: black;
+    padding-bottom: 30px;
+}
+.oportunidade-container> h2{
+    width: 300px;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #FFCF26;
+    text-align: left;
+}
+.preco-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.preco-container>h3{
+    border: 5px solid #FFCF26;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #E5B342;
+}
+.preco-container>h3:last-child{
+    border: 3px solid #FFCF26;
+    margin: 20px 0;
+    font-size: 15px;
+}
+.preco-container>h3> span{
+    margin-left: 5px;
+    letter-spacing: 2px;
+    color: #E5B342;
+}
+.preco-container>p{
+    padding-top: 30px;
+}
+.preco-container label>h3{
+    padding:20px 0;
+}
+.preco-container label>p{
+    color: #E5B342;
+    padding-bottom: 5px;
+}
+@media screen and (max-width:500px){
+    .oportunidade-container> h2{
+        max-width: 300px;
+        width: 80vw;
+    }
+    .preco-container>h3{
+        max-width: 300px;
+        width: 80vw;
+    }
+}

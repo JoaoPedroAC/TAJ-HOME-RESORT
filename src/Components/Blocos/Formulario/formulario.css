@@ -1,0 +1,92 @@
+.area-form-flex{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form{
+    padding: 10px 20px;
+    border: 3px solid #FFCF26;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 70%;
+}
+form p{
+    text-align: left;
+    color: #E5B342;
+    padding-top: 20px;
+}
+form input{
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 90%;
+}
+form textarea{
+    color: black;
+    padding: 5px 10px;
+    max-width: 500px;
+    max-height: 200px;
+    width: 90%;
+    height: 50px;
+    resize: none;
+    border-radius: 5px;
+}
+.termo{
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+}
+.termo input{
+    width: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+.termo p{
+    padding: 0 0;
+    color: white;
+}
+/* Area do texto ao lado do formulario */
+.contato-texto{
+    max-width: 600px;
+    width: 80%;
+    padding-top: calc(50px*2);
+    text-align: center;
+}
+.contato-texto h2{
+    width: 50%;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #FFCF26;
+    text-align: left;
+}
+.contato-texto p{
+    max-width: 300px;
+    margin: 20px auto 0 45px;
+    text-align: left;
+}
+.contato-texto img{
+    margin: 20px auto 0 100px;
+    width: 180px;
+    height: 80px;
+    text-align: left;
+    display: block;
+}
+.botao-enviar{
+    max-width: 100px;
+    width: 80vw;
+    border-radius: 10px;
+    background-color:#E5B342;
+    color: black;
+    font-weight: bold;
+    padding: 5px 0;
+}
+@media screen and (max-width:830px){
+    .contato-texto{
+        padding-top: calc(50px/2);
+    }
+}

@@ -1,0 +1,28 @@
+.bloco-videoIntrodutorio {
+  /* background-color: yellow; */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bloco-videoIntrodutorio > .titulo {
+  width: 800px;
+  margin-bottom: 50px;
+}
+.bloco-videoIntrodutorio > .titulo > h2 {
+  text-align: center;
+}
+.bloco-videoIntrodutorio > .subtitulo {
+  width: 800px;
+}
+.bloco-videoIntrodutorio > .subtitulo > p {
+  text-align: center;
+}
+.bloco-videoIntrodutorio > .video {
+  margin-top: 50px;
+  width: 700px;
+  height: 394px;
+}
+.bloco-videoIntrodutorio > .CTA-Button {
+  margin-top: 50px;
+}

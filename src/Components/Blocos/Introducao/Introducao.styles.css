@@ -1,0 +1,52 @@
+.bloco-introducao {
+  margin-top: 129px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bloco-introducao > .texto-principal {
+  max-width: 857px;
+  width: 80%;
+  margin-bottom: 108px;
+}
+.bloco-introducao > .imagem-grande-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 620px;
+  width: 90%;
+  margin-bottom: 70px;
+}
+.bloco-introducao > .imagem-grande-desktop > img {
+  max-width: 324px;
+  width: 80%;
+  height: 200px;
+}
+.bloco-introducao > .imagem-grande-desktop > h1 {
+  margin-top: 40px;
+  color: #ffffff;
+  font-family: "Cinzel", serif;
+  text-shadow: 0px 0px 15px #e6b342;
+  text-align: center;
+}
+.bloco-introducao > button {
+  text-shadow: 0px 0px 7px rgba(204, 158, 58, 0.397);
+}
+.bloco-introducao > .texto-principal > p {
+  text-align: center;
+}
+.bloco-introducao > img {
+  width: 100%;
+}
+.bloco-introducao > .texto-final {
+  max-width: 658px;
+  width: 80%;
+  margin-top: 90px;
+}
+.texto-final  h2 {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  font-size: 24px;
+  max-width: 658px;
+}
