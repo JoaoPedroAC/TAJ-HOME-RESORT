@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0fb98bc1.css",
+    "main.js": "/static/js/main.d9f4cdb7.js",
+    "static/media/area-de-lazer.png": "/static/media/area-de-lazer.67b6915494fa204805c9.png",
+    "static/media/torres_altas.png": "/static/media/torres_altas.debe8e161074ab7d1c25.png",
+    "static/media/torres-baixas.png": "/static/media/torres-baixas.f135ed751d8a0d37a073.png",
+    "static/media/planta-direita.png": "/static/media/planta-direita.c8d4fd67244c36d2735a.png",
+    "static/media/planta-esquerda.png": "/static/media/planta-esquerda.e991109c20755bece9cb.png",
+    "static/media/planta-maior.png": "/static/media/planta-maior.8d67e2b55936da6e458e.png",
+    "static/media/desktop_logo_grande.png": "/static/media/desktop_logo_grande.be8a276d3256cecc8442.png",
+    "static/media/carrinhos.png": "/static/media/carrinhos.29454ac0a462d8b51e9d.png",
+    "static/media/seguranca.png": "/static/media/seguranca.00f5793ac1ccc0d5af7f.png",
+    "static/media/monitoramento.png": "/static/media/monitoramento.5e102abb8c9a54f69154.png",
+    "static/media/ajudador.png": "/static/media/ajudador.f5b5b59f93445a1ba5e0.png",
+    "static/media/revestimentos.png": "/static/media/revestimentos.b15746973a0f12f43410.png",
+    "static/media/tomadas.png": "/static/media/tomadas.7d2fdca2aff4c0fc36e2.png",
+    "static/media/ajuda.png": "/static/media/ajuda.f43d3838b9fb29ccb951.png",
+    "static/media/logo-rodape.png": "/static/media/logo-rodape.49aff333dc83c121fd82.png",
+    "static/media/toalhas.png": "/static/media/toalhas.fe62ce06f2bc5ff9e9b6.png",
+    "static/media/desktop_logo_pequena.png": "/static/media/desktop_logo_pequena.c9ac4986f76f35717845.png",
+    "index.html": "/index.html",
+    "main.0fb98bc1.css.map": "/static/css/main.0fb98bc1.css.map",
+    "main.d9f4cdb7.js.map": "/static/js/main.d9f4cdb7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb98bc1.css",
+    "static/js/main.d9f4cdb7.js"
+  ]
+}

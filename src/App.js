@@ -22,7 +22,7 @@ export default function App() {
 			<InteriorDoApto /> */}
 			<Torres />
 			<Bem />
-			<Localizacao />
+			{/* <Localizacao /> */}
 			<Formulario />
 			<Oportunidade />
 			<Oferecemos />
