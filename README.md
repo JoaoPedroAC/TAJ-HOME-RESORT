@@ -4,6 +4,10 @@ O projeto é para ajudar a mãe de um amigo a capitar clientes, foi meu primeiro
 ## TECNOLOGIAS
 React.JS
 
+## Equipe
+- Co-Porgramador [Daniel Lemos](https://github.com/DanielLemosELEMESMO/);
+- Designer Vicenzo.
+
 ### API
 [nodemailer](https://nodemailer.com/usage/)
 
