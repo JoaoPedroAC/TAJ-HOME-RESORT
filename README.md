@@ -4,7 +4,7 @@ O projeto é para ajudar a mãe de um amigo a capitar clientes, foi meu primeiro
 ## TECNOLOGIAS
 React.JS
 
-## Equipe
+## EQUIPE
 - Co-Porgramador [Daniel Lemos](https://github.com/DanielLemosELEMESMO/);
 - Designer Vicenzo.
 
