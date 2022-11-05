@@ -25,7 +25,6 @@ function formulario(props) {
 				mensagem,
 			});
 			await fetch('https://back-email.herokuapp.com/enviar-email', {
-				mode:'no-cors',
 				method: 'POST',
 				body: urlencoded,
 			});
