@@ -23,10 +23,17 @@ function formulario(props) {
 				estado,
 				email,
 				mensagem,
-			})
-			await fetch('https://back-email.herokuapp.com/enviar-email', {
-				method: 'POST',	body: urlencoded
 			});
+			await fetch('https://back-email.herokuapp.com/enviar-email', {
+				method: 'POST',
+				body: urlencoded,
+			});
+			setNome('');
+			setPhone('');
+			setCidade('');
+			setEstado('');
+			setEmail('');
+			setMensagem('');
 		} catch (e) {
 			console.log(e);
 		}
@@ -105,10 +112,10 @@ function formulario(props) {
 						maxLength={500}></textarea>
 				</label>
 
-				<label reactfor='termo' className='termo'>
+				{/* <label reactfor='termo' className='termo'>
 					<input type='checkbox' key='termo' required />
 					<p>Aceito receber o contato de um consultor</p>
-				</label>
+				</label> */}
 
 				<Botao
 					className='botao-enviar'
@@ -120,20 +127,15 @@ function formulario(props) {
 			<div className='contato-texto'>
 				<h2>Entre em contato conosco e marque uma visita.</h2>
 				<p>
-					Não perca a <span className='destaque'>oportunidade</span> de
-					proporcionar a você e sua família essa{' '}
-					<span className='destaque'>experiência única.</span>
+					Não perca a <span className='destaque'>oportunidade</span> de proporcionar a você e sua
+					família essa <span className='destaque'>experiência única.</span>
 				</p>
 				<p>
 					Venha visitar o Taj Home Resort e conhecer mais sobre esse{' '}
-					<span className='destaque'>paraíso localizado em Vila Velha</span>,
-					onde os seus{' '}
+					<span className='destaque'>paraíso localizado em Vila Velha</span>, onde os seus{' '}
 					<span className='destaque'>sonhos podem se tornar realidade.</span>
 				</p>
-				<img
-					src={require('../../../assets/imagens/desktop_logo_pequena.png')}
-					alt='TAJ'
-				/>
+				<img src={require('../../../assets/imagens/desktop_logo_pequena.png')} alt='TAJ' />
 			</div>
 			<br />
 		</div>
