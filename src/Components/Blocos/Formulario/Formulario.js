@@ -24,7 +24,7 @@ function formulario(props) {
 				email,
 				mensagem,
 			})
-			await fetch('http://localhost:4000/enviar-email', {
+			await fetch('https://back-email.herokuapp.com/enviar-email', {
 				method: 'POST',	body: urlencoded
 			});
 		} catch (e) {

@@ -8,7 +8,7 @@
     "react-dom": "^18.1.0",
     "react-slick": "0.29.0",
     "slick-carousel": "1.8.1",
-    "proxy":"http://localhost:4000"
+    "proxy":"https://back-email.herokuapp.com"
   },
   "scripts": {
     "start": "react-scripts start",
