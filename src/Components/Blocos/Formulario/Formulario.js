@@ -28,15 +28,15 @@ function formulario(props) {
 				method: 'POST',
 				body: urlencoded,
 			});
-			setNome('');
-			setPhone('');
-			setCidade('');
-			setEstado('');
-			setEmail('');
-			setMensagem('');
 		} catch (e) {
 			console.log(e);
 		}
+		setNome('');
+		setPhone('');
+		setCidade('');
+		setEstado('');
+		setEmail('');
+		setMensagem('');
 	};
 
 	return (

@@ -13,6 +13,7 @@ React.JS
 
 ### DEPLOY
 [Acese a página por aqui](https://taj-home-resort-capitation.netlify.app)
+A API encontra-se inativa por probelmas do Heroku
 
 ## SCREENSHOTS
 ![Intro](https://user-images.githubusercontent.com/78094903/189253500-7855639d-cf8d-494d-b969-02ae83eb18d2.png)
