@@ -11,7 +11,8 @@ React.JS
 ### API
 [nodemailer](https://nodemailer.com/usage/)
 
-### SEM DEPLOY ATÉ PRESENTE MOMENTO
+### DEPLOY
+[Acese a página por aqui](https://benevolent-treacle-cff6fe.netlify.app)
 
 ## SCREENSHOTS
 ![Intro](https://user-images.githubusercontent.com/78094903/189253500-7855639d-cf8d-494d-b969-02ae83eb18d2.png)
