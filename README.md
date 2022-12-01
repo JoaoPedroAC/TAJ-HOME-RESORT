@@ -1,5 +1,5 @@
 # SOBRE
-O projeto é para ajudar a mãe de um amigo a capitar clientes, foi meu primeiro desafio utilizando o framework React.JS e consumindo API para envio de emails.
+O projeto é para ajudar uma corretora a capitar clientes, foi meu primeiro desafio utilizando o framework React.JS e consumindo API para envio de emails.
 
 ## TECNOLOGIAS
 React.JS
